@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mmyFlix-client-Angular_gh-page_testing": {
+    "myFlix-client-Angular_gh-page_testing": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
