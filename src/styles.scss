@@ -4,22 +4,22 @@
 @include mat.core();
 
 
-$myFlix-client-Angular-primary: mat.define-palette(mat.$pink-palette);
-$myFlix-client-Angular-accent: mat.define-palette(mat.$blue-grey-palette, A200, A100, A400);
+$myFlix-client-Angular_gh-page_testing-primary: mat.define-palette(mat.$pink-palette);
+$myFlix-client-Angular_gh-page_testing-accent: mat.define-palette(mat.$blue-grey-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$myFlix-client-Angular-warn: mat.define-palette(mat.$red-palette);
+$myFlix-client-Angular_gh-page_testing-warn: mat.define-palette(mat.$red-palette);
 
 
-$myFlix-client-Angular-theme: mat.define-dark-theme((color: (primary: $myFlix-client-Angular-primary,
-        accent: $myFlix-client-Angular-accent,
-        warn: $myFlix-client-Angular-warn,
+$myFlix-client-Angular_gh-page_testing-theme: mat.define-dark-theme((color: (primary: $myFlix-client-Angular_gh-page_testing-primary,
+        accent: $myFlix-client-Angular_gh-page_testing-accent,
+        warn: $myFlix-client-Angular_gh-page_testing-warn,
       )));
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
-@include mat.all-component-themes($myFlix-client-Angular-theme);
+@include mat.all-component-themes($myFlix-client-Angular_gh-page_testing-theme);
 
 /* You can add global styles to this file, and also import other style files */
 

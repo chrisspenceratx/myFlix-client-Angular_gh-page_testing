@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "myFlix-client-Angular": {
+    "mmyFlix-client-Angular_gh-page_testing": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -75,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "myFlix-client-Angular:build:production"
+              "buildTarget": "myFlix-client-Angular_gh-page_testing:build:production"
             },
             "development": {
-              "buildTarget": "myFlix-client-Angular:build:development"
+              "buildTarget": "myFlix-client-Angular_gh-page_testing:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "myFlix-client-Angular:build"
+            "buildTarget": "myFlix-client-Angular_gh-page_testing:build"
           }
         },
         "test": {
