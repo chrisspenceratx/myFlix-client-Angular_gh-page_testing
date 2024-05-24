@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 # URL address
 First deploy in project folder: ng deploy --base-href=/myFLix-client-Angular_gh-page_testing
-This app is hostead at https://chrisspenceratx.github.io/myFlix-client-Angular
+This app is hostead at https://chrisspenceratx.github.io/myFlix-client-Angular_gh-page_testing/
 
 ## Code scaffolding
 
